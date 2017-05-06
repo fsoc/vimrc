@@ -110,6 +110,10 @@ map <C-l> :bnext<CR>
 set list
 set listchars=tab:>.,trail:.,extends:>,precedes:<,
 
+
+"newline after comma
+map <leader>c 0f,a<CR><Esc
+
 "disable noob-mode
 noremap <Up> :echoerr 'Use hjkl instead.'<CR>
 noremap <Down> :echoerr 'Use hjkl instead.'<CR>
